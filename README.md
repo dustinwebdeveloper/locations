@@ -20,10 +20,10 @@ $ createdb python_getting_started
 $ python manage.py migrate
 $ python manage.py collectstatic
 
-$ heroku local
+$ python manage.py runserver
 ```
 
-Your app should now be running on [localhost:5000](http://localhost:5000/).
+Your app should now be running on [localhost:8000](http://localhost:8000/).
 
 ## Deploying to Heroku
 

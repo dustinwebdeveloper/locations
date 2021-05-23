@@ -16,6 +16,7 @@ import hello.views
 
 urlpatterns = [
     path('health/', include('health.urls')),
+    path('locations/', include('locations.urls')),
     path("", hello.views.index, name="index"),
     path("db/", hello.views.db, name="db"),
     path("admin/", admin.site.urls),
